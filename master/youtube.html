@@ -1,0 +1,34 @@
+<head>
+<link rel="stylesheet" href="css/mov.css" type="text/css" media="screen" /> 
+<script src="jquery-latest.js"></script>
+<script src="youtube.js"></script>
+<script type="text/javascript"> 
+jQuery(document).ready(function() { 
+     jQuery('#demoyoutube').wrap('<div id="yt_holder" class="yt_holder"></div>');
+     jQuery('<div id="ytvideo"></div>').prependTo('#yt_holder');
+     jQuery('#demoyoutube').ytplaylist({addThumbs:true, autoPlay: false, holderId: 'ytvideo',playerHeight:396,playerWidth:612});
+}); 
+</script> 
+
+</head>
+<body >
+		<ul id="demoyoutube">
+		<li><a href="http://www.youtube.com/watch?v=rDNd-zfVcss"></a>陳老師特輯 - 製作中</li>
+		<li><a href="http://www.youtube.com/watch?v=o2aPGQHGjZE"></a>Dear 陳昌平老師</li>
+		<li><a href="http://www.youtube.com/watch?v=qzaeSvmaewA"></a>2003 - 中山區演武</li>
+		<li><a href="http://www.youtube.com/watch?v=ivYo-CZAIjk"></a>2004 - 中正盃 台視新聞</li>
+		<li><a href="http://www.youtube.com/watch?v=F8h1xGr98ZA"></a>2004 - 中正盃師範演武</li>
+		<li><a href="http://www.youtube.com/watch?v=yQXlp24goE0"></a>2005 - 演武 世運嘉年華</li>
+		<li><a href="http://www.youtube.com/watch?v=euROC9RURT4"></a>2006 - 台大合氣道社社長交接</li>
+		<li><a href="http://www.youtube.com/watch?v=bNwRZCw0mD4"></a>2006 - 師大講解</li>
+		<li><a href="http://www.youtube.com/watch?v=Ju_wSNabDKI"></a>2007 - 師大合氣道社迎新例會</li>
+		<li><a href="http://www.youtube.com/watch?v=EwwrQ94I0ZU"></a>2008 - 板橋市長盃師範演武</li>
+		<li><a href="http://www.youtube.com/watch?v=fQJTTgUoz3E"></a>2010 - 師大合氣道社迎新例會</li>
+<!--
+		<li><a href=""></a></li>
+		<li><a href=""></a></li>
+		<li><a href=""></a></li>
+-->
+		</ul>
+</body>
+</html>
